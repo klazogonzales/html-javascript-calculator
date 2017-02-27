@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>My Calculator</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:800|VT323" rel="stylesheet">
         <link rel= "stylesheet" href="style.css" type="text/css"/>
     </head>
     <body>
@@ -9,7 +10,10 @@
         <div id="keypad">
            <table border>
                <tr>
-                   <td colspan="4" id="display-bar" height="30px"></td>
+                   <td colspan="4" height="20px"><div id="display-bar"></div></td>
+               </tr>
+               <tr>
+                  <td colspan="4"><div id="calculator-brand">TI-KIMBERLIN</div></td>
                </tr>
                <tr>
                <td><input type="button" value="9" onclick="display(9)"/></td>
